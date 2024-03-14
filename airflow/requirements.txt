@@ -1,0 +1,14 @@
+apache-airflow>=2.8.3  # Adjust to your desired Airflow version
+apache-airflow-providers-google>=6.0.0  # For GCP services like GCS, BigQuery
+apache-airflow-providers-apache-spark>=3.0.0  # For integrating with Apache Spark
+apache-airflow-providers-postgres>=3.0.0  # For PostgreSQL database operations
+apache-airflow-providers-http>=3.0.0  # For HTTP requests and APIs
+apache-airflow-providers-sqlite>=3.0.0  # For SQLite database operations
+pandas>=1.3.3  # For data manipulation and analysis
+sqlalchemy>=1.4.22  # Database toolkit for Python
+psycopg2-binary>=2.9.1  # PostgreSQL database adapter for Python
+pyarrow>=5.0.0  # For Apache Arrow
+google-cloud-bigquery>=2.24.0  # For interacting with Google BigQuery
+google-cloud-storage>=1.42.0  # For interacting with Google Cloud Storage
+boto3>=1.18.21  # For interacting with Amazon Web Services (AWS) S3 and more
+jinja2>=3.0
